@@ -1,0 +1,237 @@
+0 verbose cli /home/sesame-minmin/.nvm/versions/node/v18.16.0/bin/node /home/sesame-minmin/.nvm/versions/node/v18.16.0/bin/npm
+1 info using npm@9.7.1
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/home/sesame-minmin/.nvm/versions/node/v18.16.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 5ms
+10 timing config:load:file:/home/sesame-minmin/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/home/sesame-minmin/.nvm/versions/node/v18.16.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 12ms
+16 timing npm:load:configload Completed in 12ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install dotenv
+21 verbose argv "install" "dotenv"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:/home/sesame-minmin/.npm/_logs/2023-06-19T15_57_50_550Z-
+25 verbose logfile /home/sesame-minmin/.npm/_logs/2023-06-19T15_57_50_550Z-debug-0.log
+26 timing npm:load:logFile Completed in 8ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 34ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile start cleaning logs, removing 2 files
+32 timing idealTree:init Completed in 81ms
+33 timing idealTree:userRequests Completed in 1ms
+34 silly idealTree buildDeps
+35 silly fetch manifest dotenv@*
+36 silly logfile done cleaning log files
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/dotenv 167ms (cache miss)
+39 silly placeDep ROOT dotenv@16.3.1 OK for: sesame-minmin@1.0.0 want: *
+40 timing idealTree:#root Completed in 174ms
+41 timing idealTree:node_modules/dotenv Completed in 0ms
+42 timing idealTree:buildDeps Completed in 175ms
+43 timing idealTree:fixDepFlags Completed in 2ms
+44 timing idealTree Completed in 262ms
+45 timing reify:loadTrees Completed in 264ms
+46 timing reify:diffTrees Completed in 3ms
+47 silly reify moves {}
+48 timing reify:retireShallow Completed in 1ms
+49 timing reify:createSparse Completed in 1ms
+50 timing reify:loadBundles Completed in 0ms
+51 silly audit bulk request {
+51 silly audit   '@slack/bolt': [ '3.13.1' ],
+51 silly audit   '@slack/logger': [ '3.0.0' ],
+51 silly audit   '@slack/oauth': [ '2.6.1' ],
+51 silly audit   '@slack/socket-mode': [ '1.3.2' ],
+51 silly audit   '@slack/types': [ '2.8.0' ],
+51 silly audit   '@slack/web-api': [ '6.8.1' ],
+51 silly audit   'p-queue': [ '6.6.2', '2.4.2' ],
+51 silly audit   eventemitter3: [ '4.0.7', '3.1.2' ],
+51 silly audit   '@types/body-parser': [ '1.19.2' ],
+51 silly audit   '@types/connect': [ '3.4.35' ],
+51 silly audit   '@types/express': [ '4.17.17' ],
+51 silly audit   '@types/express-serve-static-core': [ '4.17.35' ],
+51 silly audit   '@types/is-stream': [ '1.1.0' ],
+51 silly audit   '@types/jsonwebtoken': [ '8.5.9' ],
+51 silly audit   '@types/mime': [ '1.3.2' ],
+51 silly audit   '@types/node': [ '18.16.0' ],
+51 silly audit   '@types/p-queue': [ '2.3.2' ],
+51 silly audit   '@types/promise.allsettled': [ '1.0.3' ],
+51 silly audit   '@types/qs': [ '6.9.7' ],
+51 silly audit   '@types/range-parser': [ '1.2.4' ],
+51 silly audit   '@types/retry': [ '0.12.0' ],
+51 silly audit   '@types/send': [ '0.17.1' ],
+51 silly audit   '@types/serve-static': [ '1.15.1' ],
+51 silly audit   '@types/tsscmp': [ '1.0.0' ],
+51 silly audit   '@types/ws': [ '7.4.7' ],
+51 silly audit   accepts: [ '1.3.8' ],
+51 silly audit   'array-buffer-byte-length': [ '1.0.0' ],
+51 silly audit   'array-flatten': [ '1.1.1' ],
+51 silly audit   'array.prototype.map': [ '1.0.5' ],
+51 silly audit   asynckit: [ '0.4.0' ],
+51 silly audit   'available-typed-arrays': [ '1.0.5' ],
+51 silly audit   axios: [ '0.27.2' ],
+51 silly audit   'form-data': [ '4.0.0', '2.5.1' ],
+51 silly audit   'body-parser': [ '1.20.1' ],
+51 silly audit   'raw-body': [ '2.5.1', '2.5.2' ],
+51 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+51 silly audit   bytes: [ '3.1.2' ],
+51 silly audit   'call-bind': [ '1.0.2' ],
+51 silly audit   'combined-stream': [ '1.0.8' ],
+51 silly audit   'content-disposition': [ '0.5.4' ],
+51 silly audit   'content-type': [ '1.0.5' ],
+51 silly audit   cookie: [ '0.5.0' ],
+51 silly audit   'cookie-signature': [ '1.0.6' ],
+51 silly audit   debug: [ '2.6.9' ],
+51 silly audit   'define-properties': [ '1.2.0' ],
+51 silly audit   'delayed-stream': [ '1.0.0' ],
+51 silly audit   depd: [ '2.0.0' ],
+51 silly audit   destroy: [ '1.2.0' ],
+51 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+51 silly audit   'ee-first': [ '1.1.1' ],
+51 silly audit   encodeurl: [ '1.0.2' ],
+51 silly audit   'es-abstract': [ '1.21.2' ],
+51 silly audit   'es-array-method-boxes-properly': [ '1.0.0' ],
+51 silly audit   'es-get-iterator': [ '1.1.3' ],
+51 silly audit   'es-set-tostringtag': [ '2.0.1' ],
+51 silly audit   'es-to-primitive': [ '1.2.1' ],
+51 silly audit   'escape-html': [ '1.0.3' ],
+51 silly audit   etag: [ '1.8.1' ],
+51 silly audit   express: [ '4.18.2' ],
+51 silly audit   'path-to-regexp': [ '0.1.7', '6.2.1' ],
+51 silly audit   finalhandler: [ '1.2.0' ],
+51 silly audit   finity: [ '0.5.4' ],
+51 silly audit   'follow-redirects': [ '1.15.2' ],
+51 silly audit   'for-each': [ '0.3.3' ],
+51 silly audit   forwarded: [ '0.2.0' ],
+51 silly audit   fresh: [ '0.5.2' ],
+51 silly audit   'function-bind': [ '1.1.1' ],
+51 silly audit   'function.prototype.name': [ '1.1.5' ],
+51 silly audit   'functions-have-names': [ '1.2.3' ],
+51 silly audit   'get-intrinsic': [ '1.2.1' ],
+51 silly audit   'get-symbol-description': [ '1.0.0' ],
+51 silly audit   globalthis: [ '1.0.3' ],
+51 silly audit   gopd: [ '1.0.1' ],
+51 silly audit   has: [ '1.0.3' ],
+51 silly audit   'has-bigints': [ '1.0.2' ],
+51 silly audit   'has-property-descriptors': [ '1.0.0' ],
+51 silly audit   'has-proto': [ '1.0.1' ],
+51 silly audit   'has-symbols': [ '1.0.3' ],
+51 silly audit   'has-tostringtag': [ '1.0.0' ],
+51 silly audit   'http-errors': [ '2.0.0' ],
+51 silly audit   'iconv-lite': [ '0.4.24' ],
+51 silly audit   inherits: [ '2.0.4' ],
+51 silly audit   'internal-slot': [ '1.0.5' ],
+51 silly audit   'ipaddr.js': [ '1.9.1' ],
+51 silly audit   'is-arguments': [ '1.1.1' ],
+51 silly audit   'is-array-buffer': [ '3.0.2' ],
+51 silly audit   'is-bigint': [ '1.0.4' ],
+51 silly audit   'is-boolean-object': [ '1.1.2' ],
+51 silly audit   'is-callable': [ '1.2.7' ],
+51 silly audit   'is-date-object': [ '1.0.5' ],
+51 silly audit   'is-electron': [ '2.2.0' ],
+51 silly audit   'is-map': [ '2.0.2' ],
+51 silly audit   'is-negative-zero': [ '2.0.2' ],
+51 silly audit   'is-number-object': [ '1.0.7' ],
+51 silly audit   'is-regex': [ '1.1.4' ],
+51 silly audit   'is-set': [ '2.0.2' ],
+51 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+51 silly audit   'is-stream': [ '1.1.0' ],
+51 silly audit   'is-string': [ '1.0.7' ],
+51 silly audit   'is-symbol': [ '1.0.4' ],
+51 silly audit   'is-typed-array': [ '1.1.10' ],
+51 silly audit   'is-weakref': [ '1.0.2' ],
+51 silly audit   isarray: [ '2.0.5' ],
+51 silly audit   'iterate-iterator': [ '1.0.2' ],
+51 silly audit   'iterate-value': [ '1.0.2' ],
+51 silly audit   jsonwebtoken: [ '9.0.0' ],
+51 silly audit   ms: [ '2.1.3', '2.0.0' ],
+51 silly audit   jwa: [ '1.4.1' ],
+51 silly audit   jws: [ '3.2.2' ],
+51 silly audit   lodash: [ '4.17.21' ],
+51 silly audit   'lodash.isstring': [ '4.0.1' ],
+51 silly audit   'lru-cache': [ '6.0.0' ],
+51 silly audit   'media-typer': [ '0.3.0' ],
+51 silly audit   'merge-descriptors': [ '1.0.1' ],
+51 silly audit   methods: [ '1.1.2' ],
+51 silly audit   mime: [ '1.6.0' ],
+51 silly audit   'mime-db': [ '1.52.0' ],
+51 silly audit   'mime-types': [ '2.1.35' ],
+51 silly audit   negotiator: [ '0.6.3' ],
+51 silly audit   'object-inspect': [ '1.12.3' ],
+51 silly audit   'object-keys': [ '1.1.1' ],
+51 silly audit   'object.assign': [ '4.1.4' ],
+51 silly audit   'on-finished': [ '2.4.1' ],
+51 silly audit   'p-cancelable': [ '1.1.0' ],
+51 silly audit   'p-finally': [ '1.0.0' ],
+51 silly audit   'p-retry': [ '4.6.2' ],
+51 silly audit   'p-timeout': [ '3.2.0' ],
+51 silly audit   parseurl: [ '1.3.3' ],
+51 silly audit   'please-upgrade-node': [ '3.2.0' ],
+51 silly audit   'promise.allsettled': [ '1.0.6' ],
+51 silly audit   'proxy-addr': [ '2.0.7' ],
+51 silly audit   qs: [ '6.11.0' ],
+51 silly audit   'range-parser': [ '1.2.1' ],
+51 silly audit   'regexp.prototype.flags': [ '1.5.0' ],
+51 silly audit   retry: [ '0.13.1' ],
+51 silly audit   'safe-buffer': [ '5.2.1' ],
+51 silly audit   'safe-regex-test': [ '1.0.0' ],
+51 silly audit   'safer-buffer': [ '2.1.2' ],
+51 silly audit   semver: [ '7.5.2' ],
+51 silly audit   'semver-compare': [ '1.0.0' ],
+51 silly audit   send: [ '0.18.0' ],
+51 silly audit   'serve-static': [ '1.15.0' ],
+51 silly audit   setprototypeof: [ '1.2.0' ],
+51 silly audit   'side-channel': [ '1.0.4' ],
+51 silly audit   statuses: [ '2.0.1' ],
+51 silly audit   'stop-iteration-iterator': [ '1.0.0' ],
+51 silly audit   'string.prototype.trim': [ '1.2.7' ],
+51 silly audit   'string.prototype.trimend': [ '1.0.6' ],
+51 silly audit   'string.prototype.trimstart': [ '1.0.6' ],
+51 silly audit   toidentifier: [ '1.0.1' ],
+51 silly audit   tsscmp: [ '1.0.6' ],
+51 silly audit   'type-is': [ '1.6.18' ],
+51 silly audit   'typed-array-length': [ '1.0.4' ],
+51 silly audit   'unbox-primitive': [ '1.0.2' ],
+51 silly audit   unpipe: [ '1.0.0' ],
+51 silly audit   'utils-merge': [ '1.0.1' ],
+51 silly audit   vary: [ '1.1.2' ],
+51 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+51 silly audit   'which-typed-array': [ '1.1.9' ],
+51 silly audit   ws: [ '7.5.9' ],
+51 silly audit   yallist: [ '4.0.0' ],
+51 silly audit   dotenv: [ '16.3.1' ]
+51 silly audit }
+52 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz. Extracting by manifest.
+53 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz 80ms (cache miss)
+54 timing reifyNode:node_modules/dotenv Completed in 85ms
+55 timing reify:unpack Completed in 85ms
+56 timing reify:unretire Completed in 0ms
+57 timing build:queue Completed in 0ms
+58 timing build:deps Completed in 1ms
+59 timing build Completed in 1ms
+60 timing reify:build Completed in 1ms
+61 timing reify:trash Completed in 0ms
+62 timing reify:save Completed in 39ms
+63 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 171ms
+64 timing auditReport:getReport Completed in 175ms
+65 silly audit report {}
+66 timing auditReport:init Completed in 0ms
+67 timing reify:audit Completed in 175ms
+68 timing reify Completed in 449ms
+69 silly ADD node_modules/dotenv
+70 timing command:install Completed in 458ms
+71 verbose exit 0
+72 timing npm Completed in 616ms
+73 info ok
